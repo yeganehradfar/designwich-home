@@ -25,7 +25,9 @@
     flex-direction: row;
     align-items: center;
 }
-
+.left-header{
+    padding-left: 14px;
+}
 .logo {
     border-left: 1px dashed #000;
     background-color: #f8f8f8;
@@ -37,6 +39,8 @@
 }
 
 .logo img {
+    width: 56px;
+    padding: 12px;
     /* margin: auto; */
 }
 
@@ -90,7 +94,7 @@
 
 .home-header {
     text-align: center;
-    margin: 0 184px;           /* ? */
+    margin: 45px 184px;           /* ? */
 }
 
 .title-home-header {
@@ -101,6 +105,7 @@
 }
 
 .description-title {
+    margin-top: 20px;
     text-align: center;
     font-weight: 400;
     font-size: 1.15rem;
@@ -118,7 +123,7 @@
   
     padding: 0px 13px;
     font-size: 30px;
-    margin: 2px;
+    margin: 5px;
 }
 
 .moshavere-button {
@@ -146,6 +151,8 @@
 .courses div {
     display: flex;
     align-items: center;
+    font-size: 19px;
+
 }
 
 .same-css-courses{
@@ -157,6 +164,10 @@
     padding: 0.5vw;
     /* display: flex; */
 }
+.number-stu{
+    background-color: #F989B1;
+}
+
 .hybrid img {
     background-color: #FCF474;
 }
