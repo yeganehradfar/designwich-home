@@ -74,6 +74,7 @@
 .boot-camp {
     flex-direction: row;
     margin-left: 25px;
+    cursor: pointer;
 }
 
 .angle-down-icon {
@@ -123,7 +124,7 @@
 
 .moshavere-button,
 .moshahede-button {
-
+    cursor: pointer;
     padding: 0px 13px;
     font-size: 30px;
     margin: 5px;
