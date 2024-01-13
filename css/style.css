@@ -1,0 +1,174 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+.main-wrapper {
+    width: 88vw;
+    border: 1px dashed #000;
+    margin: auto;
+}
+
+#navBar {
+    direction: rtl;
+    display: flex;
+    height: 100px;
+    border-bottom: 1px dashed #000;
+    justify-content: space-between;
+}
+
+.left-header,
+.right-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    border-left: 1px dashed #000;
+    background-color: #f8f8f8;
+    /* display: block; */
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    /* margin: auto; */
+}
+
+.logo img {
+    /* margin: auto; */
+}
+
+.home-link {
+    width: 220px;
+    text-align: center;
+
+}
+
+.home-link a {
+    /* font-weight: bold; */
+    font-size: 1.5vw;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+
+}
+
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2vw;
+
+}
+
+.boot-camp {
+    flex-direction: row;
+    margin-left: 25px;
+}
+
+.angle-down-icon {
+    width: 17px;
+    padding: 0 5px;
+}
+
+.pannel-link {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+
+
+
+}
+
+.pannel-button {
+    padding: 0 17px;
+    margin: 10px;
+    border: 1px dashed #b8b8b8;
+    background-color: #fff;
+}
+
+.home-header {
+    text-align: center;
+    margin: 0 184px;           /* ? */
+}
+
+.title-home-header {
+    /* max-width: 57vw; */
+    font-size: 5vw;
+    line-height: 1.4;
+    /* text-align: center; */
+}
+
+.description-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+.buttons-section {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    margin: 25px;
+}
+
+.moshavere-button,
+.moshahede-button {
+  
+    padding: 0px 13px;
+    font-size: 30px;
+    margin: 2px;
+}
+
+.moshavere-button {
+    background-color: #fff;
+    border: 1PX dashed #b8b8b8;
+    /* padding-bottom: 1.25vh; */
+    /* font-weight: 500; */
+}
+
+.moshahede-button {
+    background-color: #000;
+    color: #fff;
+}
+
+.courses {
+    border-top: 1px dashed #000;
+    direction: rtl;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.courses div {
+    display: flex;
+    align-items: center;
+}
+
+.same-css-courses{
+    /* margin-left: 5px */
+    border: 1px solid #000;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1vw;
+    padding: 0.5vw;
+    /* display: flex; */
+}
+.hybrid img {
+    background-color: #FCF474;
+}
+.part-time img {
+    background-color: #BF92FF;
+}
+.project-oriented img{
+    background-color: #FCF474;
+}
+.course-certificate img {
+    background-color: #00FFBD;
+}
+.online-class img {
+    background-color: #01B4F5;
+}
