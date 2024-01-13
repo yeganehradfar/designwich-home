@@ -39,7 +39,6 @@
 .logo {
     border-left: 1px dashed #000;
     background-color: #f8f8f8;
-    /* display: block; */
     padding: 10px;
     align-items: center;
     display: flex;
@@ -49,7 +48,6 @@
 .logo img {
     width: 56px;
     padding: 12px;
-    /* margin: auto; */
 }
 
 .home-link {
@@ -59,7 +57,6 @@
 }
 
 .home-link a {
-    /* font-weight: bold; */
     font-size: 1.5vw;
     cursor: pointer;
     text-decoration: none;
@@ -104,14 +101,11 @@
 .home-header {
     text-align: center;
     margin: 45px 184px;
-    /* ? */
 }
 
 .title-home-header {
-    /* max-width: 57vw; */
     font-size: 5vw;
     line-height: 1.4;
-    /* text-align: center; */
 }
 
 .description-title {
@@ -123,7 +117,6 @@
 
 .buttons-section {
     display: flex;
-    /* flex-direction: row; */
     justify-content: center;
     margin: 25px;
 }
@@ -139,8 +132,7 @@
 .moshavere-button {
     background-color: #fff;
     border: 1PX dashed #b8b8b8;
-    /* padding-bottom: 1.25vh; */
-    /* font-weight: 500; */
+
 }
 
 .moshavere-button:hover {
@@ -172,13 +164,11 @@
 }
 
 .same-css-courses {
-    /* margin-left: 5px */
     border: 1px solid #000;
     justify-content: center;
     align-items: center;
     margin-left: 1vw;
     padding: 0.5vw;
-    /* display: flex; */
 }
 
 .number-stu {
